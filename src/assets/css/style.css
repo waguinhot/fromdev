@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Código css destinado a página de login */
+.login {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;    
+}
+
+
+.login img{
+    margin-top: -50px;
+    width: 100%;
+}
+.login .inputsLoggin{
+    margin-top: -170px;
+}
+.login label{
+    display: block;
+    font-size: 30px;
+}
+.login input{
+    background-color: #DFDFDF;
+    height: 70px;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.login button{
+    background-color: #212529;
+    border: none;
+    border-radius: 20px;
+    height: 70px;
+    width: 100%;
+    color: #FFFFFF;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.login .esquecerSenha{
+    color: #000000;
+    font-size: 23px;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.login .problemAcess{
+    color: #000000;
+    text-decoration: none;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.divInput{
+    margin-top: 25px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .login {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Roboto', sans-serif;    
+    }
+    .login img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .login .inputsLoggin{
+        margin-top: -70px;
+    }
+    .login .problemAcess{
+        font-size: 13px;
+    }
+    .login .esquecerSenha{
+        color: #000000;
+        font-size: 13px;
+    }
+    .login input{
+        font-size: 15px;
+        
+        height: 50px;
+    }
+    .login label{
+        font-size: 15px;
+    }
+    .login button{
+        
+        height: 50px;
+    }
+  } 
+/* fim do código css destinado a página de login */
